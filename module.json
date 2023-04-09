@@ -8,12 +8,12 @@
   "compatibility": {
     "minimum": 10,
     "verified": 10,
-    "maximum": 11
+    "maximum": 10
   },
   "authors": [
     {
       "name": "Ty Hayes Creative",
-      "url": "https://github.com/tyhayescreative",
+      "url": "https://github.com/tyhayescreative"
     }
   ],
   "relationships": {
