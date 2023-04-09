@@ -1,7 +1,7 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "VNPC",
+  "title": "Visual NPCs",
+  "description": "A module that provides character art and nameplates at the click of a button.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
@@ -12,9 +12,8 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Ty Hayes Creative",
+      "url": "https://github.com/tyhayescreative",
     }
   ],
   "relationships": {
