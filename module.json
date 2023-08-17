@@ -28,11 +28,11 @@
         }
     ]
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
   "scripts": [
+    "scripts/module.js",
     "scripts/lib/lib.js"
+  ],
+  "esmodules": [
   ],
   "styles": [
     "styles/module.css"
