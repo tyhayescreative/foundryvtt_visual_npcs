@@ -1,11 +1,16 @@
+console.log("VNPC | module.js running")
+/*
 Hooks.once('init', async function() {
+
+    console.log("VNPC | init hook")
 
 });
 
 Hooks.once('ready', async function() {
 
-});
-Hooks.on("getActorDirectoryEntryContext", (html, options) => {
+    console.log("VNPC | init hook")
+
+    Hooks.on("getActorDirectoryEntryContext", (html, options) => {
         options.push(
             {
                 name: "sidebar-context.prototype",
@@ -21,14 +26,13 @@ Hooks.on("getActorDirectoryEntryContext", (html, options) => {
                 callback: (li) => {
                     const actor = <any>game.actors?.get(li.data("documentId"));
                     showVNPC(actor)
-                    /*
-                    new CONFIG.Token.prototypeSheetClass(actor.prototypeToken).render(true);
-                    */
+                    //new CONFIG.Token.prototypeSheetClass(actor.prototypeToken).render(true);
                 }
             }
         );
-});
+    });
 
+});
 
 function showVNPC(actor){
     if (token)
@@ -184,3 +188,5 @@ function hideVNPC(actor){
     }
 
 }
+
+*/
