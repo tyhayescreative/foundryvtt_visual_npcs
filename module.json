@@ -1,14 +1,13 @@
 {
   "id": "VNPC",
+  "name": "VNPC",
   "title": "Visual NPCs",
   "description": "A module that provides character art and nameplates at the click of a button.",
-  "version": "#{VERSION}#",
+  "version": "0.0.2-alpha-7",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "verified": 11
   },
   "authors": [
     {
@@ -16,43 +15,7 @@
       "url": "https://github.com/tyhayescreative"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": [
-        {
-            "id": "sequencer",
-            "type": "module",
-            "compatibility": {
-                "verified": "2.4.7"
-            }
-        }
-    ]
-  },
   "scripts": [
-    "scripts/module.js",
-    "scripts/lib/lib.js"
-  ],
-  "esmodules": [
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
+    "scripts/vnpc.js"
   ]
 }
