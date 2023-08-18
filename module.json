@@ -3,7 +3,7 @@
   "name": "VNPC",
   "title": "Visual NPCs",
   "description": "A module that provides character art and nameplates at the click of a button.",
-  "version": "0.0.2-alpha-7",
+  "version": "#{VERSION}#",
   "library": "false",
   "compatibility": {
     "minimum": 10,
@@ -17,5 +17,8 @@
   ],
   "scripts": [
     "scripts/vnpc.js"
-  ]
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#"
 }
